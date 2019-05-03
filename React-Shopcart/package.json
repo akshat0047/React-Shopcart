@@ -1,0 +1,22 @@
+{
+  "name": "React-Shopcart",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://akshat0047.github.io/React-Shopcart",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "0.9.5"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject"
+  }
+}
